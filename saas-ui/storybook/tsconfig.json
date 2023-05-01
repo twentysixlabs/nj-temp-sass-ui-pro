@@ -1,0 +1,10 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "paths": {
+      "@saas-ui-pro/pro": ["../packages/pro/src"],
+      "@saas-ui-pro/onboarding": ["../packages/onboarding/src"]
+    }
+  },
+  "include": [".storybook/*.ts"]
+}

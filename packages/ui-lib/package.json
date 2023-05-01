@@ -1,0 +1,48 @@
+{
+  "name": "@ui/lib",
+  "version": "0.3.0",
+  "private": true,
+  "sideEffects": false,
+  "type": "module",
+  "dependencies": {
+    "@app/i18n": "workspace:*",
+    "@dnd-kit/core": "^6.0.8",
+    "@dnd-kit/sortable": "^7.0.2",
+    "@hookform/resolvers": "^3.0.1",
+    "@saas-ui/forms": "^2.0.0-next.11",
+    "@tiptap/core": "^2.0.3",
+    "@tiptap/extension-mention": "2.0.3",
+    "@tiptap/extension-placeholder": "^2.0.3",
+    "@tiptap/pm": "^2.0.3",
+    "@tiptap/react": "^2.0.3",
+    "@tiptap/starter-kit": "^2.0.3",
+    "lucide-react": "^0.130.1",
+    "prosemirror-commands": "^1.5.1",
+    "prosemirror-dropcursor": "1.5.0",
+    "prosemirror-gapcursor": "^1.3.1",
+    "prosemirror-history": "^1.3.0",
+    "prosemirror-keymap": "^1.2.1",
+    "prosemirror-model": "^1.19.0",
+    "prosemirror-schema-list": "^1.2.2",
+    "prosemirror-state": "^1.4.2",
+    "prosemirror-transform": "^1.7.1",
+    "prosemirror-view": "^1.30.2"
+  },
+  "peerDependencies": {
+    "@chakra-ui/react": ">=2.5.0",
+    "@emotion/react": ">=11.0.0",
+    "@emotion/styled": ">=11.0.0",
+    "@saas-ui/react": ">=2.0.0",
+    "react": ">=18",
+    "react-dom": ">=18",
+    "react-icons": "^4.8.0"
+  },
+  "devDependencies": {
+    "@chakra-ui/system": "^2.5.5",
+    "@storybook/react": "^7.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-intl": "^6.3.2",
+    "zod": "^3.21.4"
+  }
+}
